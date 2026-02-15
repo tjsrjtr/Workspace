@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>You typed:</h1>
+    <p id="display"></p>
+
+    <script>
+        // Get URL parameters
+        const params = new URLSearchParams(window.location.search);
+        const userInput = params.get('userInput'); // "hello" if typed hello
+        document.getElementById('display').textContent = userInput;
+    </script>
+    
+</body>
+</html>
