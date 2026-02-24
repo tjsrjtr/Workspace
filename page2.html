@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="page2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <title>Document</title>
 </head>
 <body>
 
-    <h1>You typed:</h1>
+    <h1></h1>
     <p id="display" href="page2.css"></p>
+
+    <img src="img1.JPG" height="350" width="350" alt="This is a pic one" class="img1">
+    <img src="img2.JPG" height="350" width="350" alt="pic two" class="img2">
+    <img src="maibas.jpg" height="100" width="100" alt="pic three" class="img3">
+
+    <video src="vidgoi.mp4" controls autoplay muted playsinline class="vid1"></video>
 
     <script>
         // Get URL parameters
@@ -17,6 +26,8 @@
         const userInput = params.get('userInput'); // "hello" if typed hello
         document.getElementById('display').textContent = userInput;
     </script>
+
+
     
 </body>
 </html>
