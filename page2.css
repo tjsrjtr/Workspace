@@ -26,22 +26,22 @@ body {
         bottom: auto;
         left: auto;
     }
-
-     
-    }
-    .p1{
-        position: relative;
-        top: 300px;
-        font-size: 50px;
-        left: 100px;
     }
 
     .img3 {
-        position: relative;
+        position: absolute;
         height: 300px;
         width: 200px;
-        right: 300px;
+        bottom: 100px;
     }
+
+    .p1{
+        position: relative;
+        left: 50px;
+        font-size: 3rem;
+        
+    }
+
 
 
        
