@@ -24,15 +24,15 @@ body {
         height: 300px;
         width: 100px;
         bottom: auto;
-        left: auto;
+        left: 150px;
     }
     }
     
     @media (max-width: 600px) { 
     .img3 {
         position: absolute;
-        height: 300px;
-        width: 200px;
+        height: 50%;
+        width: 30%;
         bottom: 100px;
     } }
 
