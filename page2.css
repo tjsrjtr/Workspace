@@ -4,31 +4,47 @@ body {
     /* background-repeat: no-repeat; */
     background-size: cover;
 }
-    .img1 {
+    /* .img1 {
         position: relative;
         top: 50px;
-        left: 100px;
-    }
+        left: auto;
+        height: 500px;
+        width: 250px;
+    } */
 
-    .img2 {
+    /* .img2 {
         position: relative;
-        top: 400px;
-        /* left: 50px; */
-        right: 250px;
-    }
+        height: 300px;
+        width: 180px;
 
-    .img3 {
-        position: relative;
-        right: 400px;
-        border: 5px Solid black;
-    }
-
+    } */
+    @media (max-width: 600px) { 
     .vid1 {
         position: relative;
         height: 300px;
         width: 100px;
-        right: 700px;
-        top: 100px;
+        bottom: auto;
+        left: auto;
     }
+
+     
+    }
+    .p1{
+        position: relative;
+        top: 300px;
+        font-size: 50px;
+        left: 100px;
+    }
+
+    .img3 {
+        position: relative;
+        height: 300px;
+        width: 200px;
+        right: 300px;
+    }
+
+
+       
+    
 
 
