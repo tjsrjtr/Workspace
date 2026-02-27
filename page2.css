@@ -27,15 +27,16 @@ body {
         left: auto;
     }
     }
-
+    
+    @media (max-width: 600px) { 
     .img3 {
         position: absolute;
         height: 300px;
         width: 200px;
         bottom: 100px;
-    }
+    } }
 
-    .p1{
+    .p1 {
         position: relative;
         left: 50px;
         font-size: 3rem;
