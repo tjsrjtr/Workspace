@@ -30,18 +30,19 @@ body {
     }
     }
     
-    @media (max-width: 600px) { 
+    /* @media (max-width: 600px) { 
     .img3 {
         position: absolute;
         height: 50%;
         width: 30%;
         bottom: 300px;
-    } }
+    } } */
 
     .p1 {
         position: relative;
         left: 50px;
         font-size: 3rem;
+        color: aqua;
         
     }
 
